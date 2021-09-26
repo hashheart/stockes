@@ -1,0 +1,1 @@
+<view><block wx:if="{{inZixuan}}"><u-icon vue-id="802e815c-1" name="plus-circle" data-event-opts="{{[['^click',[['appendCode']]]]}}" bind:click="__e" bind:__l="__l"></u-icon></block><block wx:else><u-icon vue-id="802e815c-2" name="minus-circle" data-event-opts="{{[['^click',[['deleteCode']]]]}}" bind:click="__e" bind:__l="__l"></u-icon></block></view>

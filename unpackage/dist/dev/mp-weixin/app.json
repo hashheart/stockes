@@ -1,0 +1,188 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/hangqing/Hangqing",
+    "pages/zixuanList/ZixuanList",
+    "pages/news/News",
+    "pages/news/NewsDetail",
+    "pages/lhList/LhList",
+    "pages/search/search",
+    "pages/stock/stockDetail",
+    "pages/pointer/pointerList",
+    "pages/stock/stockList"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/componentsC",
+      "pages": [
+        "test/index",
+        "gap/index",
+        "subsection/index",
+        "section/index",
+        "link/index",
+        "mask/index",
+        "countTo/index",
+        "color/index",
+        "countDown/index",
+        "progress/index",
+        "alertTips/index",
+        "badge/index",
+        "button/index",
+        "collapse/index",
+        "actionSheet/index",
+        "messageInput/index",
+        "popup/index",
+        "cell/index",
+        "numberBox/index",
+        "grid/index",
+        "layout/index",
+        "loadmore/index"
+      ]
+    },
+    {
+      "root": "pages/template",
+      "pages": [
+        "wxCenter/index",
+        "keyboardPay/index",
+        "mallMenu/index2",
+        "mallMenu/index1",
+        "coupon/index",
+        "login/index",
+        "citySelect/index",
+        "submitBar/index",
+        "comment/index",
+        "comment/reply",
+        "order/index",
+        "login/code",
+        "address/index",
+        "address/addSite"
+      ]
+    },
+    {
+      "root": "pages/library",
+      "pages": [
+        "debounce/index",
+        "deepClone/index",
+        "deepMerge/index",
+        "getRect/index",
+        "timeFrom/index",
+        "globalVariable/globalData",
+        "globalVariable/prototype",
+        "globalVariable/vuex",
+        "globalVariable/index",
+        "http/index",
+        "test/index",
+        "mpShare/index",
+        "color/index",
+        "trim/index",
+        "random/index",
+        "md5/index",
+        "colorSwitch/index",
+        "randomArray/index",
+        "guid/index",
+        "timeFormat/index",
+        "route/index",
+        "route/routeTo",
+        "queryParams/index"
+      ]
+    },
+    {
+      "root": "pages/componentsA",
+      "pages": [
+        "parse/index",
+        "backTop/index",
+        "calendar/index",
+        "form/index",
+        "select/index",
+        "slider/index",
+        "fullScreen/index",
+        "navbar/index",
+        "field/index",
+        "modal/index",
+        "indexList/index",
+        "empty/index",
+        "avatarCropper/index",
+        "noNetwork/index",
+        "icon/index",
+        "avatar/index",
+        "keyboard/index",
+        "lazyLoad/index",
+        "tabs/index",
+        "tag/index",
+        "timeLine/index",
+        "toast/index",
+        "topTips/index",
+        "verificationCode/index"
+      ]
+    },
+    {
+      "root": "pages/componentsB",
+      "pages": [
+        "dropdown/index",
+        "tabbar/index",
+        "line/index",
+        "image/index",
+        "card/index",
+        "divider/index",
+        "picker/index",
+        "noticeBar/index",
+        "checkbox/index",
+        "radio/index",
+        "loading/index",
+        "switch/index",
+        "skeleton/index",
+        "upload/index",
+        "waterfall/index",
+        "table/index",
+        "rate/index",
+        "readMore/index",
+        "search/index",
+        "steps/index",
+        "sticky/index",
+        "swiper/index",
+        "swipeAction/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uView",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#303133",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/uview/example/js.png",
+        "selectedIconPath": "static/uview/example/component_select.png",
+        "text": "首页",
+        "customIcon": true
+      },
+      {
+        "pagePath": "pages/hangqing/Hangqing",
+        "iconPath": "static/uview/example/js.png",
+        "selectedIconPath": "static/uview/example/js_select.png",
+        "text": "行情"
+      },
+      {
+        "pagePath": "pages/zixuanList/ZixuanList",
+        "iconPath": "static/uview/example/template.png",
+        "selectedIconPath": "static/uview/example/template_select.png",
+        "text": "自选"
+      },
+      {
+        "pagePath": "pages/news/News",
+        "iconPath": "static/uview/example/template.png",
+        "selectedIconPath": "static/uview/example/template_select.png",
+        "text": "资讯"
+      }
+    ]
+  },
+  "preloadRule": {},
+  "usingComponents": {}
+}

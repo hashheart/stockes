@@ -1,0 +1,14 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item",
+    "u-row": "/uview-ui/components/u-row/u-row",
+    "u-col": "/uview-ui/components/u-col/u-col",
+    "news": "/components/news",
+    "my-table": "/components/table"
+  }
+}
